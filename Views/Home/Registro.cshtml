@@ -1,0 +1,33 @@
+@model ItemPedido
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Registo de Pedidos</h1>
+</div>
+<body>
+    <form>
+<div>
+                <label>Descrição</label>
+                <input type="text" id="descricao" required/>
+            </div>
+
+            <div>
+                <label>Valor</label>
+                <input type="number" required/>
+
+            </div>
+
+            <div>
+                <label>Quantidade</label>
+                <input type="number" required/>
+            </div>
+
+            <div>
+                <input type="submit" value="Enviar Pedido">
+            </div>
+    </form>
+
+</body>
+
